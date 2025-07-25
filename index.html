@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="flex-container"></div>
     <h1>Rock Paper Scissors</h1>
     <button onclick="game()">Start Game</button>
-   
-    <div id="rps">
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    </div>
-    
 
-</body>
- <script src=script.js></script>
+    <div class="running-score"></div>
+    <span class="player-score">Players Score: </span>
+    <span class="computer-score">Computer Score: </span>
+    <div id="rps">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+
+    <div class="outcome"></div>
+  </body>
+  <script src="script.js"></script>
 </html>
